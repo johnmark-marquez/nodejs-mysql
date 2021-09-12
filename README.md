@@ -13,9 +13,14 @@ Deploy the MySQL container using the command `docker run --name [name_of_your_ch
 
 Docker will then setup your container and download the necessary image for the container.
 
+# POPULATING THE USER TABLE
+
 Populate the MySQL database using the command `npm run db:reset`. It will start creating the `User` table and populate the table with some sample data.
+
+# RUNNING THE NODEJS API
 
 After populating the database, run `npm start` on the terminal to run the server.
 
+# RUNNING TEST SCRIPTS
 To test the API scripts, run `npm test`. This includes all the scripts regarding the API, `Get Users`, `Create User`, `Update User`, `Delete User`, `Bulk Delete`. It will automatically run a script that create a new database specifically for testing purposes as well.
 
