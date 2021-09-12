@@ -1,9 +1,11 @@
 const express = require('express');
-const routes = require('./routes');
+const routes = require('./src/routes');
 const logger = require('morgan');
 
+require('dotenv').config();
+
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.NODE_DOCKER_PORT || 8080;
 
 // Used to parse json for requests of type application/json
 app.use(express.json());

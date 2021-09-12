@@ -3,7 +3,6 @@ const controllers = require('../controllers');
 
 const router = Router();
 
-
 router.get('/', (req, res) => res.send('For testing purposes!'));
 
 // NOTE: Add additional routes for each API
