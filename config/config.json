@@ -16,7 +16,7 @@
   "production": {
     "username": "root",
     "password": null,
-    "database": "users_db",
+    "database": "users_db_production",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
